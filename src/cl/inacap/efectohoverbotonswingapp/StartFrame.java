@@ -62,11 +62,11 @@ public class StartFrame extends JFrame {
 		btnBoton2.setBackground(new Color(0, 213, 200));
 		btnBoton2.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent arg0) { //Listener que escucha cuando el mouse entra en el bot�n.
+			public void mouseEntered(MouseEvent arg0) { //Listener que escucha cuando el mouse entra en el botón.
 				btnBoton2.setBackground(new Color(0, 234, 220));
 			}
 			@Override
-			public void mouseExited(MouseEvent e) { //Listener que escucha cuando el mouse sale del bot�n.
+			public void mouseExited(MouseEvent e) { //Listener que escucha cuando el mouse sale del botón.
 				btnBoton2.setBackground(new Color(0, 213, 200));
 			}
 		});
